@@ -32,11 +32,15 @@ function Square (){
 //for each item in origArray
 // multiple to itself
 function toSquare(num){
-    return num * num;
+    return Math.pow(num, 2);
 }
 
 function toCube(num){
-    return num * num * num; 
+    return Math.pow(num, 3);
+}
+
+function toFourth(num){
+    return Math.pow(num, 4);
 }
 
 function toTheFourth(num){
@@ -44,9 +48,6 @@ function toTheFourth(num){
     assignValuesToInput(fourthArray);   
 }
 
-function toFourth(num){
-    return num * num * num * num; 
-}
 
 function assignValuesToInput(coppiedArray){
     for(let numbox = 0; numbox < arrayBoxNumber.length; numbox++){
