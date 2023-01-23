@@ -43,7 +43,7 @@ function toFourth(num){
     return Math.pow(num, 4);
 }
 
-function toTheFourth(num){
+function toTheFourth(){
     let fourthArray = origArray.map(toFourth);
     assignValuesToInput(fourthArray);   
 }
